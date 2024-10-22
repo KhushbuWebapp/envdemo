@@ -18,6 +18,7 @@ import LoadingComponent from "./components/LoadingComponent";
 import FileUploadComponent from "./components/FileUploadComponent";
 import DataGridTablecomponent from "./components/DataGridTablecomponent";
 import GridLayoutcomponent from "./components/GridLayoutcomponent";
+import Lodashcomponent from "./components/Lodashcomponent";
 
 const top100Films = [
   { title: "The Shawshank Redemption", year: 1994 },
@@ -57,7 +58,8 @@ function App() {
         <Route path="/fileupload" element={<FileUploadComponent />} />
         <Route path="/datagridtable" element={<DataGridTablecomponent />} />
         <Route path="/gridlayout" element={<GridLayoutcomponent />} />
-        <Route path="/" element={<GridLayoutcomponent />} />
+        <Route path="/lodash" element={<Lodashcomponent />} />
+        <Route path="/" element={<Lodashcomponent />} />
       </Routes>
       {/* </center> */}
     </>
